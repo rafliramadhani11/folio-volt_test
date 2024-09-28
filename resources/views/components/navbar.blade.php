@@ -1,8 +1,4 @@
-<nav class="sticky top-0 left-0 right-0 z-20 shadow bg-white/50" x-data="{ isOpen: false }">
-
-    @if (!auth()->check())
-        <x-banner />
-    @endif
+<nav class="relative top-0 left-0 right-0 z-20 shadow bg-white/50" x-data="{ isOpen: false }">
 
 
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">

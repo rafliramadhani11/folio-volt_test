@@ -7,9 +7,9 @@ use Livewire\Form;
 
 class LoginUser extends Form
 {
-    #[Validate('required|email|unique:users')]
+    #[Validate('required|email')]
     public $email = '';
 
-    #[Validate('required|min:5')]
+    #[Validate('required')]
     public $password = '';
 }
